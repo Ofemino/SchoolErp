@@ -20,7 +20,7 @@
             </a>
         </li>
         <li class="treeview">
-            <a href="{{asset("/Admin")}}">
+            <a href="{{asset("/admin")}}">
                 <i class="glyphicon glyphicon-user"></i>
                 <span>Admin</span>
                 <i class="fa fa-angle-left pull-right"></i>
@@ -30,13 +30,13 @@
         <li class="treeview">
             <a href="#">
                 <i class="fa fa-files-o"></i>
-                <span>Adminssion</span>
+                <span>Admission</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="{{asset("/Adminssion/New")}}"><i class="fa fa-circle-o"></i> New</a>
+                <li><a href="{{asset("/admission/New")}}"><i class="fa fa-circle-o"></i> New</a>
                 </li>
-                <li><a href="{{asset("/Adminssion/List")}}"><i class="fa fa-circle-o"></i> List</a></li>
+                <li><a href="{{asset("/admission/List")}}"><i class="fa fa-circle-o"></i> List</a></li>
             </ul>
         </li>
 
@@ -47,9 +47,9 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="{{asset("/PreAdminssion/New")}}"><i class="fa fa-circle-o"></i> New</a>
+                <li><a href="{{asset("/preadminssion/new")}}"><i class="fa fa-circle-o"></i> New</a>
                 </li>
-                <li><a href="{{asset("/PreAdminssion/List")}}"><i class="fa fa-circle-o"></i> List</a></li>
+                <li><a href="{{asset("/preadminssion/list")}}"><i class="fa fa-circle-o"></i> List</a></li>
             </ul>
         </li>
 
@@ -61,7 +61,7 @@
             </a>
             <ul class="treeview-menu">
                 <li>
-                    <a href="{{asset("/FrontOffice/")}}"><i class="fa fa-circle-o"></i> New</a>
+                    <a href="{{asset("/frontoffice/")}}"><i class="fa fa-circle-o"></i> New</a>
                 </li>
             </ul>
         </li>
@@ -73,7 +73,7 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="/FeeManagement/"><i class="glyphicon glyphicon-qrcode"></i> Home</a></li>
+                <li><a href="/feemanagement/"><i class="glyphicon glyphicon-qrcode"></i> Home</a></li>
             </ul>
         </li>
 
@@ -84,8 +84,8 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> New Entry</a></li>
-                <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> List</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> New Entry</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> List</a></li>
             </ul>
         </li>
 
@@ -96,8 +96,8 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> New Entry</a></li>
-                <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> List</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> New Entry</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> List</a></li>
             </ul>
         </li>
         <li class="treeview">
@@ -106,7 +106,7 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> General Elements</a></li>
             </ul>
         </li>
         <li class="treeview">
@@ -115,8 +115,8 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-                <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> Data tables</a></li>
             </ul>
         </li>
         <li class="treeview">
@@ -125,8 +125,8 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-                <li><a href="pages/examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> Invoice</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> Profile</a></li>
             </ul>
         </li>
 

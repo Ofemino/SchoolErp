@@ -3220,7 +3220,7 @@ MaterialLayout.prototype.CssClasses_ = {
     HEADER_SEAMED: 'mdl-layout__header--seamed',
     HEADER_WATERFALL: 'mdl-layout__header--waterfall',
     HEADER_SCROLL: 'mdl-layout__header--scroll',
-    FIXED_HEADER: 'mdl-layout--fixed-header',
+    FIXED_HEADER: 'mdl-layouts--fixed-header',
     OBFUSCATOR: 'mdl-layout__obfuscator',
     TAB_BAR: 'mdl-layout__tab-bar',
     TAB_CONTAINER: 'mdl-layout__tab-bar-container',
@@ -3240,8 +3240,8 @@ MaterialLayout.prototype.CssClasses_ = {
     IS_ACTIVE: 'is-active',
     IS_UPGRADED: 'is-upgraded',
     IS_ANIMATING: 'is-animating',
-    ON_LARGE_SCREEN: 'mdl-layout--large-screen-only',
-    ON_SMALL_SCREEN: 'mdl-layout--small-screen-only'
+    ON_LARGE_SCREEN: 'mdl-layouts--large-screen-only',
+    ON_SMALL_SCREEN: 'mdl-layouts--small-screen-only'
 };
 /**
    * Handles scrolling on the content.
@@ -3403,7 +3403,7 @@ MaterialLayout.prototype.init = function () {
         window.addEventListener('pageshow', function (e) {
             if (e.persisted) {
                 // when page is loaded from back/forward cache
-                // trigger repaint to let layout scroll in safari
+                // trigger repaint to let layouts scroll in safari
                 this.element_.style.overflowY = 'hidden';
                 requestAnimationFrame(function () {
                     this.element_.style.overflowY = '';
@@ -3443,7 +3443,7 @@ MaterialLayout.prototype.init = function () {
                 this.contentScrollHandler_();
             }
         }
-        // Add drawer toggling button to our layout, if we have an openable drawer.
+        // Add drawer toggling button to our layouts, if we have an openable drawer.
         if (this.drawer_) {
             var drawerButton = this.element_.querySelector('.' + this.CssClasses_.DRAWER_BTN);
             if (!drawerButton) {
@@ -3466,12 +3466,12 @@ MaterialLayout.prototype.init = function () {
             }
             drawerButton.addEventListener('click', this.drawerToggleHandler_.bind(this));
             drawerButton.addEventListener('keydown', this.drawerToggleHandler_.bind(this));
-            // Add a class if the layout has a drawer, for altering the left padding.
+            // Add a class if the layouts has a drawer, for altering the left padding.
             // Adds the HAS_DRAWER to the elements since this.header_ may or may
             // not be present.
             this.element_.classList.add(this.CssClasses_.HAS_DRAWER);
             // If we have a fixed header, add the button to the header rather than
-            // the layout.
+            // the layouts.
             if (this.element_.classList.contains(this.CssClasses_.FIXED_HEADER)) {
                 this.header_.insertBefore(drawerButton, this.header_.firstChild);
             } else {
@@ -3608,7 +3608,7 @@ window['MaterialLayoutTab'] = MaterialLayoutTab;
 componentHandler.register({
     constructor: MaterialLayout,
     classAsString: 'MaterialLayout',
-    cssClass: 'mdl-js-layout'
+    cssClass: 'mdl-js-layouts'
 });
 /**
  * @license

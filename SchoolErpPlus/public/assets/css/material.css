@@ -492,7 +492,7 @@ textarea {
   width: auto; }
 
 /*
- * Hide visually and from screen readers, but maintain layout
+ * Hide visually and from screen readers, but maintain layouts
  */
 .invisible {
   visibility: hidden; }
@@ -615,7 +615,7 @@ html {
 
 /*
 * Make body take up the entire screen
-* Remove body margin so layout containers don't cause extra overflow.
+* Remove body margin so layouts containers don't cause extra overflow.
 */
 body {
   width: 100%;

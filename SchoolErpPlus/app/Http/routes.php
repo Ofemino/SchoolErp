@@ -13,7 +13,8 @@
 
 Route::auth();
 
-Route::get('/Admin', 'AdminController@index');
+Route::get('/admin', 'admin\HomeController@index');
+Route::get('/account/profile/{id}', 'account\ProfileController@getProfile');
 
 
 Route::get('/', 'HomeController@index');
