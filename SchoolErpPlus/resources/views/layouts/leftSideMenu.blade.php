@@ -47,9 +47,9 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="{{asset("/preadminssion/new")}}"><i class="fa fa-circle-o"></i> New</a>
+                <li><a href="{{asset("/preadmission/new")}}"><i class="fa fa-circle-o"></i> New</a>
                 </li>
-                <li><a href="{{asset("/preadminssion/list")}}"><i class="fa fa-circle-o"></i> List</a></li>
+                <li><a href="{{asset("/preadmission/list")}}"><i class="fa fa-circle-o"></i> List</a></li>
             </ul>
         </li>
 
@@ -96,8 +96,7 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> New Entry</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> List</a></li>
+                <li><a href="{{asset("/students")}}"><i class="fa fa-circle-o"></i> Home</a></li>
             </ul>
         </li>
         <li class="treeview">
@@ -132,7 +131,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>Attendance</span>
+                <i class="glyphicon glyphicon-ok "></i> <span>Attendance</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
@@ -143,7 +142,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>Birthdays</span>
+                <i class="glyphicon glyphicon-gift"></i> <span>Birthdays</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
@@ -154,7 +153,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>Library</span>
+                <i class="glyphicon glyphicon-book"></i> <span>Library</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
@@ -165,7 +164,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>Transport</span>
+                <i class="glyphicon glyphicon-bed"></i> <span>Transport</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
@@ -176,7 +175,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>Payroll</span>
+                <i class="glyphicon glyphicon-piggy-bank"></i> <span>Payroll</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
@@ -187,7 +186,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>Inventory</span>
+                <i class="glyphicon glyphicon-modal-window"></i> <span>Inventory</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
@@ -198,7 +197,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>Study Material</span>
+                <i class="glyphicon glyphicon-folder-close"></i> <span>Study Material</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
@@ -209,7 +208,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>Staff Management</span>
+                <i class="glyphicon glyphicon-briefcase"></i> <span>Staff Management</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
@@ -220,7 +219,7 @@
 
         <li class="treeview">
             <a href="#">
-                <i class="fa fa-share"></i> <span>HRD</span>
+                <i class="glyphicon glyphicon-sunglasses"></i> <span>HRD</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
