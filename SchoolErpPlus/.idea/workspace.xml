@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad9c3b3-260b-407f-8a4b-afe45d0a92bd" name="Default" comment="addition of admin controller">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/AdminLTE.css" afterPath="$PROJECT_DIR$/public/assets/css/AdminLTE.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/app.js" afterPath="$PROJECT_DIR$/public/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/app.min.js" afterPath="$PROJECT_DIR$/public/assets/js/app.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/colorpicker/bootstrap-colorpicker.js" afterPath="$PROJECT_DIR$/public/assets/plugins/colorpicker/bootstrap-colorpicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" afterPath="$PROJECT_DIR$/public/assets/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterPath="$PROJECT_DIR$/public/assets/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" afterPath="$PROJECT_DIR$/public/assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" afterPath="$PROJECT_DIR$/public/assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/demo.js" afterPath="$PROJECT_DIR$/public/assets/js/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/datatables/jquery.dataTables.css" afterPath="$PROJECT_DIR$/public/assets/plugins/datatables/jquery.dataTables.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/datatables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/public/assets/plugins/datatables/jquery.dataTables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/plugins/datatables/jquery.dataTables_themeroller.css" afterPath="$PROJECT_DIR$/public/assets/plugins/datatables/jquery.dataTables_themeroller.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/leftSideMenu.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/leftSideMenu.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/mainHeader.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/mainHeader.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/material.css" afterPath="$PROJECT_DIR$/public/assets/css/material.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/material.js" afterPath="$PROJECT_DIR$/public/assets/js/material.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/material.min.js" afterPath="$PROJECT_DIR$/public/assets/js/material.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+    <list default="true" id="3ad9c3b3-260b-407f-8a4b-afe45d0a92bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SchoolErpPlus.iws" />
@@ -382,6 +360,13 @@
       <option name="number" value="Default" />
       <updated>1490193139822</updated>
     </task>
+    <task id="LOCAL-00001" summary="addition of admin controller">
+      <created>1490211140164</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490211140164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
