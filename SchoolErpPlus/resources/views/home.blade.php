@@ -3,11 +3,11 @@
 
 
 @section('contentHeader')
-           Dashboard
-        <small>Version 1.0.1</small>
-@stop
+    Dashboard
+    <small>Version 1.0.1</small>
+    @stop
 
-@section('content')
+    @section('content')
             <!-- Info boxes -->
     <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -281,4 +281,7 @@
         </div>
 
     </div>
+
+    <script src="{{asset("assets/js/pages/dashboard2.js")}}"></script>
+
 @stop

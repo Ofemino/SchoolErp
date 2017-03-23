@@ -1,9 +1,9 @@
 @extends('layouts.master')
-@section('pageTitle', 'Registered Student')
+@section('pageTitle', 'Registered Attendance')
 
 
 @section('contentHeader')
-    Registered Student
+    Registered Attendance
 @stop
 
 @section('content')

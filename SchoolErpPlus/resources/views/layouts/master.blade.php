@@ -41,6 +41,10 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- jQuery 2.1.4 -->
+    <script src="{{asset("assets/plugins/jQuery/jQuery-2.1.4.min.js")}}"></script>
+
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -100,6 +104,11 @@
 
 <!-- jQuery 2.1.4 -->
 <script src="{{asset("assets/plugins/jQuery/jQuery-2.1.4.min.js")}}"></script>
+<script type="text/javascript">
+    $(function(){
+//        alert("Hello");
+    })
+</script>
 <!-- Bootstrap 3.3.5 -->
 <script src="{{asset("assets/bootstrap/js/bootstrap.min.js")}}"></script>
 <!-- mdi materialize design js -->
@@ -120,8 +129,10 @@
 <!-- ChartJS 1.0.1 -->
 <script src="{{asset("assets/plugins/chartjs/Chart.min.js")}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{asset("assets/js/pages/dashboard2.js")}}"></script>
+
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset("assets/js/demo.js")}}"></script>
+
+
 </body>
 </html>

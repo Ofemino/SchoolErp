@@ -30,12 +30,12 @@ class StudentController extends Controller
     public function recAndAssessment()
     {
 
-        return view();
+        return view('students.records');
     }
 
     public function attendanceRecords()
     {
 
-        return view();
+        return view('students.attendance');
     }
 }

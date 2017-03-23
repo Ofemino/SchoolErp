@@ -9,7 +9,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a href="{{asset('/students/registeredstudents')}}" class="homeMenuLinks">
+            <a href="{{asset('/students/registered')}}" class="homeMenuLinks">
                 <div class="info-box">
                     <span class="info-box-icon bg-aqua"><i class="glyphicon glyphicon-user"></i></span>
 
@@ -25,7 +25,7 @@
         </div>
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a href="{{asset('/students/recordsandassessment')}}" class="homeMenuLinks">
+            <a href="{{asset('/students/records')}}" class="homeMenuLinks">
                 <div class="info-box">
                     <span class="info-box-icon bg-red"><i class="glyphicon glyphicon-pencil"></i></span>
 
@@ -46,7 +46,7 @@
 
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
-            <a href="{{asset('/students/attendancerecords')}}" class="homeMenuLinks">
+            <a href="{{asset('/students/attendance')}}" class="homeMenuLinks">
                 <div class="info-box">
                     <span class="info-box-icon bg-orange"><i class="glyphicon glyphicon-ok"></i></span>
 
