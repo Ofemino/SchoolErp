@@ -16,10 +16,26 @@ class StudentController extends Controller
 
     public function listAllStudents()
     {
-        $userRoleData = array();
-        $userRoleData[0] = 'admin';
-        return view('students.home', ['$userRoleData' => $userRoleData]);
+        $userRoleArr = array();
+        $userRoleArr[0] = 'admin';
+        return view('students.home', ['userRoleArr' => $userRoleArr]);
     }
 
+    public function registeredStudents()
+    {
 
+        return view('students.registered');
+    }
+
+    public function recAndAssessment()
+    {
+
+        return view();
+    }
+
+    public function attendanceRecords()
+    {
+
+        return view();
+    }
 }

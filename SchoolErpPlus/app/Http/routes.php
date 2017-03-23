@@ -15,7 +15,12 @@ Route::auth();
 
 Route::get('/admin', 'admin\HomeController@index');
 Route::get('/account/profile/{id}', 'account\ProfileController@getProfile');
+
+
 Route::get('/students', 'students\StudentController@listAllStudents');
+Route::get('/students/registered', 'students\StudentController@registeredStudents');
+Route::get('/students/recordsandassessment', 'students\StudentController@recAndAssessment');
+Route::get('/students/attendancerecords', 'students\StudentController@attendanceRecords');
 
 
 Route::get('/', 'HomeController@index');

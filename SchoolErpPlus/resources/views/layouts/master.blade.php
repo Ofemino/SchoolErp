@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="{{asset("assets/css/material.min.css")}}">
     <!-- custom css-->
     <link rel="stylesheet" href="{{asset("assets/css/AppStyles.css")}}">
+    <link rel="stylesheet" href="{{asset("assets/css/MyCustomStyles.css")}}">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

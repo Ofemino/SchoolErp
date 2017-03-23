@@ -1,0 +1,12 @@
+.homeMenuLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.homeMenuLinks:hover {
+    text-decoration: none;
+    color: black;
+}
+.customFontSize {
+    font-size: 18px!important;
+}
