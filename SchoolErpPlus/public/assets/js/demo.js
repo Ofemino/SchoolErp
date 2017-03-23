@@ -46,10 +46,10 @@
           .before(tab_button);
 
   //Create the menu
-  var demo_settings = $("<div />");
+  var demo_settings = $("<div />", {"id":"themeSetup"}).html();
 
-  //Layout options
-  demo_settings.append(
+  //Layout options     demo_settings.append(
+     $("#themeSetup").append(
           "<h4 class='control-sidebar-heading'>"
           + "Layout Options"
           + "</h4>"
@@ -204,11 +204,15 @@
                   + "<p class='text-center no-margin' style='font-size: 12px;'>Yellow Light</p>");
   skins_list.append(skin_yellow_light);
 
-  demo_settings.append("<h4 class='control-sidebar-heading'>Skins</h4>");
-  demo_settings.append(skins_list);
+  //
+  //demo_settings.append("<h4 class='control-sidebar-heading'>Skins</h4>");
+  //demo_settings.append(skins_list);
 
-  tab_pane.append(demo_settings);
-  $("#control-sidebar-home-tab").after(tab_pane);
+    $("#themeSetup").append("<h4 class='control-sidebar-heading'>Skins</h4>").append(skins_list);
+
+
+  //tab_pane.append(demo_settings);
+  //$("#control-sidebar-home-tab").after(tab_pane);
 
   setup();
 

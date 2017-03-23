@@ -1,7 +1,11 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: EntralogIT
- * Date: 2017-03-23
- * Time: 7:15 AM
- */
+@extends('layouts.master')
+@section('pageTitle', 'Student\'s Records')
+
+
+@section('contentHeader')
+    Student's Records
+@stop
+
+@section('content')
+
+@endsection

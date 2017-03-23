@@ -7,6 +7,70 @@
     text-decoration: none;
     color: black;
 }
+
 .customFontSize {
-    font-size: 18px!important;
+    font-size: 18px !important;
+}
+
+.btn {
+    font-family: 'consolas' !important;
+    /*font-size: 12pt!important;*/
+}
+
+/*.tab-content{*/
+/*border: solid 1.2pt lightgrey!important;*/
+/*padding: 15px!important;*/
+/*height: auto;*/
+/*}*/
+
+.tab-content > .tab-pane {
+    /*display: block;*/
+    visibility: hidden;
+
+}
+
+.tab-content > .active {
+    visibility: visible;
+}
+
+.page-form {
+    margin-top: 15px;
+}
+
+.page-form .textarea {
+    min-height: 220px;
+    resize: none;
+}
+
+.form-control {
+    box-shadow: none;
+    border-color: #eee;
+    height: 49px;
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: solid 2pt rgba(227, 62, 62, 0.75)!important;
+    font-size: 15pt;
+}
+
+.form-control-feedback {
+    line-height: 50px;
+}
+
+.main-btn {
+    background: #00b09c;
+    border-color: #00b09c;
+    color: #fff;
+}
+
+.main-btn:hover {
+    background: #00a491;
+    color: #fff;
+}
+
+.form-control-feedback {
+    line-height: 50px;
+    top: 0px;
 }

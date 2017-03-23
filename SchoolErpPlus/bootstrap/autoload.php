@@ -16,6 +16,8 @@ define('LARAVEL_START', microtime(true));
 
 require __DIR__.'/../vendor/autoload.php';
 
+//require_once '/assets/kendo/lib/Kendo/Autoload.php';
+
 /*
 |--------------------------------------------------------------------------
 | Include The Compiled Class File

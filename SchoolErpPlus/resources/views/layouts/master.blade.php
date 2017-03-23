@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{asset("assets/bootstrap/css/bootstrap.min.css")}}">
     <!-- mdi materialize design css-->
     {{--    <link rel="stylesheet" href="{{asset("assets/css/materialize.min.css")}}">--}}
-    <link rel="stylesheet" href="{{asset("assets/css/material.min.css")}}">
+    {{--<link rel="stylesheet" href="{{asset("assets/css/material.min.css")}}">--}}
     <!-- custom css-->
     <link rel="stylesheet" href="{{asset("assets/css/AppStyles.css")}}">
     <link rel="stylesheet" href="{{asset("assets/css/MyCustomStyles.css")}}">
@@ -35,6 +35,11 @@
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{asset("assets/css/skins/_all-skins.min.css")}}">
 
+    <!-- for sweetalert css. -->
+    <link rel="stylesheet" href="{{asset("assets/css/sweetalert2.min.css")}}">
+
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,6 +49,17 @@
 
     <!-- jQuery 2.1.4 -->
     <script src="{{asset("assets/plugins/jQuery/jQuery-2.1.4.min.js")}}"></script>
+
+
+
+    <script>
+        $(function () {
+ //           alert("OK");
+//            showInfoMessageWithHtml("This is a test", "info")
+        })
+
+    </script>
+
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -66,9 +82,9 @@
             <div class="row">
                 <div class="col-md-12"
                      style="background-color: lightgrey; color: black; font-size: medium; font-weight: 200;">
-                   <h3>
-                       @yield('contentHeader')
-                   </h3>
+                    <h3>
+                        @yield('contentHeader')
+                    </h3>
                 </div>
             </div>
         </section>
@@ -102,13 +118,11 @@
 </div>
 <!-- ./wrapper -->
 
-<!-- jQuery 2.1.4 -->
-<script src="{{asset("assets/plugins/jQuery/jQuery-2.1.4.min.js")}}"></script>
-<script type="text/javascript">
-    $(function(){
-//        alert("Hello");
-    })
-</script>
+
+<!-- sweatalert2 purposes -->
+<script src="{{asset("assets/js/sweetalert2.min.js")}}"></script>
+<script src="{{asset("assets/js/sweetalertMethods.js")}}"></script>
+
 <!-- Bootstrap 3.3.5 -->
 <script src="{{asset("assets/bootstrap/js/bootstrap.min.js")}}"></script>
 <!-- mdi materialize design js -->

@@ -30,19 +30,6 @@
         <li class="treeview">
             <a href="#">
                 <i class="fa fa-files-o"></i>
-                <span>Admission</span>
-                <i class="fa fa-angle-left pull-right"></i>
-            </a>
-            <ul class="treeview-menu">
-                <li><a href="{{asset("/admission/New")}}"><i class="fa fa-circle-o"></i> New</a>
-                </li>
-                <li><a href="{{asset("/admission/List")}}"><i class="fa fa-circle-o"></i> List</a></li>
-            </ul>
-        </li>
-
-        <li class="treeview">
-            <a href="#">
-                <i class="fa fa-files-o"></i>
                 <span>Pre-Adminssion</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
@@ -50,6 +37,19 @@
                 <li><a href="{{asset("/preadmission/new")}}"><i class="fa fa-circle-o"></i> New</a>
                 </li>
                 <li><a href="{{asset("/preadmission/list")}}"><i class="fa fa-circle-o"></i> List</a></li>
+            </ul>
+        </li>
+
+        <li class="treeview">
+            <a href="#">
+                <i class="fa fa-files-o"></i>
+                <span>Admission</span>
+                <i class="fa fa-angle-left pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="{{asset("/admission/new")}}"><i class="fa fa-circle-o"></i> New</a>
+                </li>
+                <li><a href="{{asset("/admission/list")}}"><i class="fa fa-circle-o"></i> List</a></li>
             </ul>
         </li>
 

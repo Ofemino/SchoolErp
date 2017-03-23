@@ -22,6 +22,8 @@ Route::get('/students/registered', 'students\StudentController@registeredStudent
 Route::get('/students/records', 'students\StudentController@recAndAssessment');
 Route::get('/students/attendance', 'students\StudentController@attendanceRecords');
 
+Route::get('/admission/new', 'students\AdmissionController@newAdmission');
+
 
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
