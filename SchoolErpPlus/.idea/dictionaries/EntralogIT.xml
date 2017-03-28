@@ -2,6 +2,8 @@
   <dictionary name="EntralogIT">
     <words>
       <w>endsection</w>
+      <w>studentadmission</w>
+      <w>usertitle</w>
     </words>
   </dictionary>
 </component>

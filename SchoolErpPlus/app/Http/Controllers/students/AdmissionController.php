@@ -2,12 +2,16 @@
 
 namespace App\Http\Controllers\students;
 
+use App\StudentAdmission;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
+use Intervention\Image\Facades\Image;
 
-//use Kendo\UI\DatePicker;
 
 class AdmissionController extends Controller
 {
@@ -16,15 +20,89 @@ class AdmissionController extends Controller
         $this->middleware('auth');
     }
 
-    public function newAdmission()
+    public function create()
     {
-        //       $datePicker = new DatePicker('datepicker');
-        //        $users = User::all();
-        //        'users' => $users,
-        //        'datePicker' => $datePicker
-        $args = array();
+        return view('admission/new');
+    }
 
-        return view('admission.new')->with($args);
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function post(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'FirstName' => 'required',
+            'SurName' => 'required',
+            'OtherNames' => 'required',
+            'Gender' => 'required',
+            'Dob' => 'required',
+            'Soo' => 'required',
+//            'txtBirthCert' => 'required',
+            'BloodGrp' => 'required',
+            'ContactTitle' => 'required',
+            'ContactFullName' => 'required',
+            'ContactPhone' => 'required',
+//            'ContactEmail' => 'required',
+            'ContactAddress' => 'required',
+//            'chkCorrespondence' => 'required',
+            'childAvatar' => 'required|image|mimes:jpeg,png,jpg',
+        ]);
+        $input = $request->all();
+        $returnInput = array(
+            'FirstName' => $input['FirstName'],
+            'SurName' => $input['SurName'],
+            'OtherNames' => $input['OtherNames'],
+            'Gender' => $input['Gender'],
+            'Dob' => $input['Dob'],
+            'Soo' => $input['Soo'],
+//            'txtBirthCert' => $input['txtBirthCert'],
+            'BloodGrp' => $input['BloodGrp'],
+        );
+
+        if ($validator->fails()) {
+            $messages = $validator->messages();
+            return view('admission.create', ['returnInput' => $returnInput])->withErrors($validator);
+        } else {
+            $studentAdmission = new StudentAdmission();
+            $studentAdmission->first_name = strtoupper($input['FirstName']);
+            $studentAdmission->sur_name = strtoupper($input['SurName']);
+            $studentAdmission->other_name = strtoupper($input['OtherNames']);
+            $studentAdmission->gender = $input['Gender'];
+            $studentAdmission->dob = date_format(date_create($input['Dob']), 'Y-m-d');
+            $studentAdmission->pob = strtoupper($input['Soo']);
+            $studentAdmission->blood_group = $input['BloodGrp'];
+
+            $studentAdmission->contact_title = $input['ContactTitle'];
+            $studentAdmission->primary_contact = strtoupper($input['ContactFullName']);
+            $studentAdmission->contact_mobile = strtoupper($input['ContactPhone']);
+            $studentAdmission->contact_email = $input['ContactEmail'];
+            $studentAdmission->contact_address = strtoupper($input['ContactAddress']);
+
+            $childAvatar = $input['childAvatar'];
+            //getting timestamp
+            $timestamp = str_replace([' ', ':'], '-', Carbon::now()->toDateTimeString());
+            $name = $timestamp . '-' . $childAvatar->getClientOriginalName();
+            $studentAdmission->avatar = 'assets/img/profiles/' . $name;
+
+            if ($studentAdmission->save()) {
+                $img = Image::make($childAvatar)->resize(300, 200);
+                $img->save('assets/img/profiles/' . $name);
+                return redirect('admission/index');
+            } else {
+                return back();
+            }
+        }
+        // return $request->all();
+    }
+
+
+    public function index()
+    {
+        $admissionList = DB::table('studentadmission')
+            ->join('usertitle', 'contact_title', '=', 'usertitle.id')
+            ->get();
+        return view('admission/index')->with(['admissionList' => $admissionList]);
     }
 
 }

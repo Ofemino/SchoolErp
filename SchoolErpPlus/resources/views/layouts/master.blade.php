@@ -60,7 +60,7 @@
 
     </script>
 
-
+    <meta name="_token" content="{{ Session::token() }}">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -142,7 +142,7 @@
 <script src="{{asset("assets/plugins/slimScroll/jquery.slimscroll.min.js")}}"></script>
 <!-- ChartJS 1.0.1 -->
 <script src="{{asset("assets/plugins/chartjs/Chart.min.js")}}"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+
 
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset("assets/js/demo.js")}}"></script>

@@ -13,6 +13,8 @@
 
 Route::auth();
 
+Route::get('auth/logout', 'Auth\AuthController@logout');
+
 Route::get('/admin', 'admin\HomeController@index');
 Route::get('/account/profile/{id}', 'account\ProfileController@getProfile');
 
@@ -22,7 +24,11 @@ Route::get('/students/registered', 'students\StudentController@registeredStudent
 Route::get('/students/records', 'students\StudentController@recAndAssessment');
 Route::get('/students/attendance', 'students\StudentController@attendanceRecords');
 
-Route::get('/admission/new', 'students\AdmissionController@newAdmission');
+Route::get('/admission/create', 'students\AdmissionController@create');
+Route::post('/admission/post', 'students\AdmissionController@post');
+Route::get('/admission/index', 'students\AdmissionController@index');
+
+
 
 
 Route::get('/', 'HomeController@index');

@@ -34,9 +34,9 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="{{asset("/preadmission/new")}}"><i class="fa fa-circle-o"></i> New</a>
+                <li><a href="{{asset("/preadmission/create")}}"><i class="fa fa-circle-o"></i> New</a>
                 </li>
-                <li><a href="{{asset("/preadmission/list")}}"><i class="fa fa-circle-o"></i> List</a></li>
+                <li><a href="{{asset("/preadmission/index")}}"><i class="fa fa-circle-o"></i> List</a></li>
             </ul>
         </li>
 
@@ -47,9 +47,9 @@
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="{{asset("/admission/new")}}"><i class="fa fa-circle-o"></i> New</a>
+                <li><a href="{{asset("/admission/create")}}"><i class="fa fa-circle-o"></i> New</a>
                 </li>
-                <li><a href="{{asset("/admission/list")}}"><i class="fa fa-circle-o"></i> List</a></li>
+                <li><a href="{{asset("/admission/index")}}"><i class="fa fa-circle-o"></i> List</a></li>
             </ul>
         </li>
 

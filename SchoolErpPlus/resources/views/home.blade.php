@@ -282,6 +282,6 @@
 
     </div>
 
-    <script src="{{asset("assets/js/pages/dashboard2.js")}}"></script>
-
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    {{--<script src="{{asset("assets/js/pages/dashboard2.js")}}"></script>--}}
 @stop

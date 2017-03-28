@@ -1,1053 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad9c3b3-260b-407f-8a4b-afe45d0a92bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/AutoComplete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/AutoCompleteAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/AutoCompleteAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/AutoCompleteAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/AutoCompleteVirtual.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/Barcode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/BarcodeBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/BarcodePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/BarcodeText.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/BarcodeTextMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Button.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Calendar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/CalendarMonth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/Chart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartAreaBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartAreaMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemAutoBaseUnitSteps.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemCrosshairTooltipPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemLabelsDateFormats.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemLabelsRotation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemSelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemSelectMousewheel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemTitleMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartCategoryAxisItemTitlePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegend.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendInactiveItems.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendInactiveItemsLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartLegendPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPane.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPaneBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPaneMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPanePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPaneTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPaneTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPaneTitleMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPannable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPlotArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPlotAreaBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPlotAreaMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartPlotAreaPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaults.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsFrom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsFromBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsFromMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsFromPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsTo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsToBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsToMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsLabelsToPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsOverlay.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesDefaultsTooltipPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemConnectors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemErrorBars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemErrorBarsLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemExtremes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemExtremesBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemHighlight.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemHighlightBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemHighlightLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsFrom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsFromBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsFromMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsFromPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsTo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsToBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsToMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLabelsToPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemMarkers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemMarkersBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemNegativeValues.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemOutliers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemOutliersBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemOverlay.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemTarget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemTargetBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemTargetLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartSeriesItemTooltipPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartTitleMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartTitlePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartTooltipPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemCrosshairTooltipPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemLabelsRotation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemTitleMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartValueAxisItemTitlePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemCrosshairTooltipPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemLabelsDateFormats.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemLabelsRotation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemTitleMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartXAxisItemTitlePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemCrosshairTooltipPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemLabelsDateFormats.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemLabelsRotation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemTitleMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartYAxisItemTitlePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartZoomable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartZoomableMousewheel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/ChartZoomableSelection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ColorPalette.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ColorPaletteTileSize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ColorPicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ColorPickerMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ColorPickerTileSize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ComboBox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ComboBoxAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ComboBoxAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ComboBoxAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ComboBoxVirtual.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ContextMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ContextMenuAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ContextMenuAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ContextMenuAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ContextMenuItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSource.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceAggregateItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceFilterItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceGroupItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceGroupItemAggregate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/DataSourceResult.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceSchema.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceSchemaModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceSchemaModelField.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceSchemaModelFieldValidation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceSortItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceTransport.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceTransportCreate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceTransportDestroy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceTransportRead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/DataSourceTransportUpdate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DatePicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DatePickerAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DatePickerAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DatePickerAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DatePickerMonth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DateTimePicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DateTimePickerAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DateTimePickerAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DateTimePickerAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DateTimePickerMonth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/Diagram.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaults.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsEditableTool.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsEditableToolButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsEditableToolMenuButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsEndCap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsEndCap.stroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsEndCapFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsEndCapStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsHover.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsHoverStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsSelection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsSelectionHandles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsSelectionHandlesFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsSelectionHandlesStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsStartCap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsStartCapFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsStartCapStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionDefaultsStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionEditableTool.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionEditableToolButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionEditableToolMenuButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionEndCap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionEndCapFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionEndCapStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionFrom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionHover.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionHoverStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionPoint.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionSelection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionSelectionHandles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionSelectionHandlesFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionSelectionHandlesStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionStartCap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionStartCapFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionStartCapStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramConnectionTo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableDrag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableDragSnap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableResize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableResizeHandles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableResizeHandlesFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableResizeHandlesHover.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableResizeHandlesHoverFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableResizeHandlesHoverStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableResizeHandlesStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableRotate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableRotateFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableRotateStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableRotateThumb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableRotateThumbFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableRotateThumbStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableSelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableSelectStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableTool.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableToolButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramEditableToolMenuButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramLayout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramLayoutGrid.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramPannable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramSelectable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramSelectableStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShape.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaults.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsEditableTool.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsEditableToolButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsEditableToolMenuButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsFillGradient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsFillGradientStop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsHover.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsHoverFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsRotation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeDefaultsStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeEditableTool.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeEditableToolButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeEditableToolMenuButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeFillGradient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeFillGradientStop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeHover.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeHoverFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeRotation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/DiagramShapeStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DropDownList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DropDownListAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DropDownListAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DropDownListAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/DropDownListVirtual.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Editor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserSchema.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserSchemaModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserSchemaModelFields.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserSchemaModelFieldsName.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserSchemaModelFieldsSize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserSchemaModelFieldsType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserTransport.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserTransportCreate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserTransportDestroy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorFileBrowserTransportRead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserSchema.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserSchemaModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserSchemaModelFields.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserSchemaModelFieldsName.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserSchemaModelFieldsSize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserSchemaModelFieldsType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserTransport.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserTransportCreate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserTransportDestroy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorImageBrowserTransportRead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorResizable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorSerialization.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorTool.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/EditorToolItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Html/Element.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/FileBrowser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/FlatColorPicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/FlatColorPickerMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Gantt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttAssignments.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttCurrentTimeMarker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttMessagesActions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttMessagesEditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttMessagesViews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttResources.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttToolbarItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GanttView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Grid.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridAllowCopy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridColumnCommandItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridColumnCommandItemText.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridColumnFilterable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridColumnFilterableCell.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridColumnMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridColumnMenuMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridColumnSortable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridExcel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridFilterable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridFilterableMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridFilterableOperators.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridFilterableOperatorsDate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridFilterableOperatorsEnums.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridFilterableOperatorsNumber.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridFilterableOperatorsString.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridGroupable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridGroupableMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridMessagesCommands.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridNoRecords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridPageable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridPageableMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridScrollable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridSortable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/GridToolbarItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/HierarchicalDataSource.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/HierarchicalDataSourceSchema.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/HierarchicalDataSourceSchemaModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ImageBrowser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/JavaScriptFunction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGauge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeGaugeArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeGaugeAreaBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeGaugeAreaMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugePointer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugePointerBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugePointerItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugePointerItemBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugePointerItemTrack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugePointerItemTrackBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugePointerTrack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugePointerTrackBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScale.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScaleLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScaleLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScaleLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScaleLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScaleLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScaleMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScaleMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/LinearGaugeScaleRange.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ListView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ListViewPageable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ListViewPageableMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/Map.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapControls.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapControlsAttribution.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapControlsNavigator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapControlsZoom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaults.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsBing.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsBubble.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsBubbleStyle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsBubbleStyleFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsBubbleStyleStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsMarker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsMarkerTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsMarkerTooltipAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsMarkerTooltipAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsMarkerTooltipAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsMarkerTooltipContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsShape.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsShapeStyle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsShapeStyleFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsShapeStyleStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerDefaultsTile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerStyle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerStyleFill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerStyleStroke.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerTooltipAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerTooltipAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerTooltipAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapLayerTooltipContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerDefaults.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerDefaultsTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerDefaultsTooltipAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerDefaultsTooltipAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerDefaultsTooltipAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerDefaultsTooltipContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerTooltipAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerTooltipAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerTooltipAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/MapMarkerTooltipContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MaskedTextBox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MenuAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MenuAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MenuAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MenuItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MultiSelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MultiSelectAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MultiSelectAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MultiSelectAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/MultiSelectVirtual.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/MyCustomJs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/NavigationalItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Html/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Notification.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/NotificationPosition.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/NotificationTemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/NumericTextBox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Pager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PagerMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PanelBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PanelBarAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PanelBarAnimationCollapse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PanelBarAnimationExpand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PanelBarItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotConfigurator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotConfiguratorMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotConfiguratorMessagesFieldMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotConfiguratorMessagesFieldMenuOperators.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotConfiguratorSortable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSource.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceMeasure.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceRow.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceSchema.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceSchemaCube.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceSchemaCubeDimension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceSchemaCubeMeasure.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceTransport.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceTransportConnection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceTransportDiscover.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Data/PivotDataSourceTransportRead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotGrid.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotGridExcel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotGridMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotGridMessagesFieldMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotGridMessagesFieldMenuOperators.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotGridPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotGridPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PivotGridSortable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Popup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PopupAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PopupAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/PopupAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ProgressBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ProgressBarAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/QRCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/QRCodeBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGauge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeGaugeArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeGaugeAreaBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeGaugeAreaMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugePointer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugePointerCap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugePointerItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugePointerItemCap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeScale.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeScaleLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeScaleLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeScaleLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeScaleLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeScaleMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeScaleMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/RadialGaugeScaleRange.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/RangeSlider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/RangeSliderTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ResponsivePanel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Scheduler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerCurrentTimeMarker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/SchedulerDataSourceResult.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerFooter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesEditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditorDaily.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditorEnd.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditorFrequencies.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditorMonthly.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditorOffsetPositions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditorWeekdays.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditorWeekly.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceEditorYearly.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesRecurrenceMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerMessagesViews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerResource.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerToolbarItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerViewEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SchedulerViewGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Serializable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/SerializableObject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Serializer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Slider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SliderTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Sortable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SortableCursorOffset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/Sparkline.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineCategoryAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineChartArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineChartAreaBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklinePlotArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklinePlotAreaBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesDefaults.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesDefaultsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesDefaultsLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesDefaultsLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesDefaultsStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesDefaultsTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesDefaultsTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemConnectors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemHighlight.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemHighlightBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemMarkers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemMarkersBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemOverlay.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemTarget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemTargetBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemTargetLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineSeriesItemTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/SparklineValueAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Splitter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SplitterPane.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Spreadsheet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetExcel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetFilterColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetFilterColumnCriteriaItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetRow.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetRowCell.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetRowCellBorderBottom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetRowCellBorderLeft.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetRowCellBorderRight.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetRowCellBorderTop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetRowCellValidation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetSort.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/SpreadsheetSheetSortColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemAutoBaseUnitSteps.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemSelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemSelectMousewheel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartCategoryAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartChartArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartChartAreaBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartLegend.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartLegendBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartLegendInactiveItems.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartLegendInactiveItemsLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartLegendInactiveItemsMarkers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartLegendItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartLegendLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemAutoBaseUnitSteps.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemCrosshairTooltipPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemLabelsDateFormats.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemLabelsMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemLabelsPadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitleMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitlePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorHint.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorPane.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorPaneBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorPaneMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorPanePadding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorPaneTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorPaneTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorPaneTitleMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemHighlight.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemHighlightBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemHighlightLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemMarkers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemMarkersBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemOverlay.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartPane.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartPaneBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartPaneTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartPaneTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartPlotArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartPlotAreaBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesDefaults.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesDefaultsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesDefaultsLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesDefaultsLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesDefaultsStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesDefaultsTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesDefaultsTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemHighlight.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemHighlightBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemHighlightLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemMarkers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemMarkersBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemOverlay.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemTarget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemTargetBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemTargetLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartSeriesItemTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemCrosshair.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemCrosshairTooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemCrosshairTooltipBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemLabels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemLabelsBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemMajorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemMajorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemMinorGridLines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemMinorTicks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesDataItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesDataItemIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesDataItemIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesDataItemLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesDataItemLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesDataItemLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesIcon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesIconBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesLabel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesLabelBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemNotesLine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemPlotBand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemTitle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/StockChartValueAxisItemTitleBorder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TabStrip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TabStripAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TabStripAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TabStripAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TabStripItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TabStripScrollable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Html/Text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TimePicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TimePickerAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TimePickerAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TimePickerAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ToolBar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ToolBarItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ToolBarItemButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/ToolBarItemMenuButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Tooltip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TooltipAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TooltipAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TooltipAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TooltipContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListColumnCommandItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListColumnFilterable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListColumnMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListColumnMenuMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListColumnSortable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListEditable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListExcel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListFilterable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListFilterableMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListMessagesCommands.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListPdf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListPdfMargin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListSortable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeListToolbarItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/Dataviz/UI/TreeMap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeViewAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeViewAnimationCollapse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeViewAnimationExpand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeViewCheckboxes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeViewItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/TreeViewMessages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/UploadAsync.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/UploadFile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/UploadLocalization.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Widget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/Window.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/WindowAnimation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/WindowAnimationClose.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/WindowAnimationOpen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Kendo/UI/WindowPosition.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/ar_MA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/be_FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/be_NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/bg_BG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/bootstrapValidator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/bootstrapValidator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/bootstrapValidator.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/bootstrapValidator.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/cs_CZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/da_DK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/de_DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/en_US.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/es_CL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/es_ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/fa_IR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/fr_FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/gr_EL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/hu_HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/id_ID.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/it_IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/ja_JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/kendo.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/kendo.common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admission/new.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/nl_NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/no_NO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/pl_PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/pt_BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/ro_RO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/ru_RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/sr_RS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/student_admission.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/sv_SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/sweetalert2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/sweetalert2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/sweetalertMethods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/th_TH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/tr_TR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/ua_UA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/vi_VN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/zh_CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/language/zh_TW.js" />
+    <list default="true" id="3ad9c3b3-260b-407f-8a4b-afe45d0a92bd" name="Default" comment="addition of students homepage">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/loading-sm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/LANG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap-datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/plugins/canvas-to-blob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/plugins/canvas-to-blob.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/cr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/cz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/fileinput.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/fileinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/fileinput.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/fileinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admission/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/kz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admission/list.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/plugins/purify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/plugins/purify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/plugins/sortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/plugins/sortable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/themes/explorer/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/themes/explorer/theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/themes/fa/theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/themes/gly/theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/locales/zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/students/AdmissionController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/students/AdmissionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/EntralogIT.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/EntralogIT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/MyCustomJs.js" afterPath="$PROJECT_DIR$/public/assets/js/MyCustomJs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/MyCustomStyles.css" afterPath="$PROJECT_DIR$/public/assets/css/MyCustomStyles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/demo.js" afterPath="$PROJECT_DIR$/public/assets/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/leftSideMenu.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/leftSideMenu.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/mainHeader.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/mainHeader.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/students/records.blade.php" afterPath="$PROJECT_DIR$/resources/views/students/records.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/students/registered.blade.php" afterPath="$PROJECT_DIR$/resources/views/students/registered.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/rightSideMenu.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/rightSideMenu.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admission/new.blade.php" afterPath="$PROJECT_DIR$/resources/views/admission/new.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/student_admission.js" afterPath="$PROJECT_DIR$/public/assets/js/student_admission.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SchoolErpPlus.iws" />
@@ -1070,24 +94,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/admission/new.blade.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5419708">
-              <caret line="106" column="31" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+            <state vertical-scroll-proportion="-3.2222223">
+              <caret line="28" column="66" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admission/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.25">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdmissionController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/students/AdmissionController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4270073">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
-                <element signature="e#7744#13002#0#HTML" expanded="false" />
-                <element signature="e#7871#8885#0#HTML" expanded="false" />
+                <element signature="e#514#636#0#PHP" expanded="false" />
+                <element signature="e#641#3647#0#PHP" expanded="true" />
+                <element signature="e#3654#3918#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyCustomStyles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/MyCustomStyles.css">
+      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admission/new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state vertical-scroll-proportion="-3.75">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -1097,10 +142,8 @@
         <entry file="file://$PROJECT_DIR$/public/assets/js/student_admission.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#50#0" expanded="false" />
-              </folding>
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1126,8 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
@@ -1141,11 +182,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserProfileController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/account/ProfileController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/mainHeader.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/students/listAll.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/AdminLTE.css" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/students/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/students/StudentController.php" />
         <option value="$PROJECT_DIR$/resources/views/students/registered.php" />
@@ -1156,22 +195,31 @@
         <option value="$PROJECT_DIR$/database/migrations/2017_03_23_080801_create_studentadmission_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_03_23_084207_add_contact_address_to_studentregistration_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_03_23_084856_add_primary_contact_address_to_studentadmission_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_03_23_090825_add_entry_year_antry_class_entry_session_to_studentadmission_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/leftSideMenu.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/sweetalertMethods.js" />
         <option value="$PROJECT_DIR$/database/migrations/2017_03_23_103758_add_student_avatar_to_studentadmission_table.php" />
         <option value="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/public/assets/js/MyCustomJs.js" />
         <option value="$PROJECT_DIR$/bootstrap/autoload.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/students/AdmissionController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/rightSideMenu.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/demo.js" />
-        <option value="$PROJECT_DIR$/public/assets/js/student_admission.js" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/app/StudentAdmission.php" />
         <option value="$PROJECT_DIR$/public/assets/css/MyCustomStyles.css" />
+        <option value="$PROJECT_DIR$/public/assets/js/MyCustomJs.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/mainHeader.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/leftSideMenu.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_03_26_204710_create_user_title_table.php" />
+        <option value="$PROJECT_DIR$/app/UserTitle.php" />
+        <option value="$PROJECT_DIR$/resources/views/admission/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/admission/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admission/new.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/student_admission.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/students/AdmissionController.php" />
       </list>
     </option>
   </component>
@@ -1197,6 +245,28 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUndefinedClassInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -1220,6 +290,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -1249,7 +320,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1263,34 +338,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolErpPlus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolErpPlus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/css/MyCustomStyles.css&#10;my&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/css/MyCustomStyles.css&#10;new&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/admission/new.blade.php&#10;myc&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/css/MyCustomStyles.css&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/home.blade.php&#10;hea&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/mainHeader.blade.php&#10;rig&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/rightSideMenu.blade.php&#10;st&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/js/student_admission.js&#10;master&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php&#10;admiss&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/Controllers/students/AdmissionController.php&#10;student&#9;null&#9;null&#10;mast&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php&#10;studen&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/js/student_admission.js&#10;ma&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php&#10;left&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/leftSideMenu.blade.php&#10;admissionC&#9;null&#9;null&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/routes.php&#10;studentad&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/database/migrations/2017_03_23_080801_create_studentadmission_table.php&#10;studentre&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/database/migrations/2017_03_23_080233_create_studentregistration_table.php&#10;mycu&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/css/MyCustomStyles.css&#10;maste&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/mainHeader.blade.php&#10;profile&#9;null&#9;null&#10;adm&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/routes.php&#10;we&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/welcome.blade.php&#10;mas&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="admi&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/js/student_admission.js&#10;new&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/admission/new.blade.php&#10;list&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/admission/list.blade.php&#10;admissi&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/Controllers/students/AdmissionController.php&#10;left&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/leftSideMenu.blade.php&#10;AuthController&#9;null&#9;null&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/routes.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/auth/login.blade.php&#10;main&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/mainHeader.blade.php&#10;my&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/js/MyCustomJs.js&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/routes.php&#10;mast&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php&#10;demo&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/js/demo.js&#10;master&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/routes.php&#10;admiss&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/Controllers/students/AdmissionController.php&#10;student_admission&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/js/student_admission.js&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/home.blade.php&#10;myc&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/css/MyCustomStyles.css&#10;hea&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/mainHeader.blade.php&#10;rig&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/rightSideMenu.blade.php&#10;st&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/js/student_admission.js&#10;student&#9;null&#9;null&#10;studen&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/js/student_admission.js&#10;ma&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php&#10;admissionC&#9;null&#9;null&#10;studentad&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/database/migrations/2017_03_23_080801_create_studentadmission_table.php&#10;studentre&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/database/migrations/2017_03_23_080233_create_studentregistration_table.php&#10;mycu&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/public/assets/css/MyCustomStyles.css&#10;maste&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/mainHeader.blade.php&#10;profile&#9;null&#9;null&#10;adm&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/app/Http/routes.php&#10;we&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/welcome.blade.php&#10;mas&#9;FILE&#9;file://C:/xampp/htdocs/SchoolErp/SchoolErpPlus/resources/views/layouts/master.blade.php" />
     <property name="recentsLimit" value="5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus\public\assets\js" />
       <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus\public\assets\css" />
+      <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus\public\assets\js" />
+      <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus\public\assets\img" />
+      <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus\public\assets" />
       <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus\public\assets\kendo" />
-      <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus" />
-      <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus\public\assets\kendo\lib\Kendo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SchoolErp\SchoolErpPlus\public\assets\img\profiles" />
     </key>
   </component>
   <component name="RunManager">
@@ -1376,23 +473,23 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23640484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21676737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42857143" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38562092" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64332247" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1437,151 +534,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/emails/password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3022388">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43656716">
-          <caret line="285" column="11" selection-start-line="285" selection-start-column="11" selection-end-line="285" selection-end-column="11" />
-          <folding>
-            <element signature="e#57#124#0#HTML" expanded="false" />
-            <element signature="e#129#274#0#HTML" expanded="false" />
-            <element signature="e#351#2552#0#HTML" expanded="false" />
-            <element signature="e#2558#9674#0#HTML" expanded="false" />
-            <element signature="e#9716#12688#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_03_22_155432_add_userrole_to_userprofile_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.333333">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#7#48#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.0">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_03_22_161138_create_userprofile_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79850745">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#48#0#PHP" expanded="false" />
-            <element signature="e#149#214#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7883212">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#40#62#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21532847">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserProfileController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12773722">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29562044">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/account/ProfileController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11313868">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29562044">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/AdminLTE.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2051" column="2" selection-start-line="2051" selection-start-column="2" selection-end-line="2051" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/students/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.769231">
           <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26865673">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1597,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03358209">
           <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19402985">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5970149">
           <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1621,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.194445">
           <caret line="28" column="35" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1629,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70522386">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1637,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.0">
           <caret line="20" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1645,15 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4411086">
           <caret line="24" column="14" selection-start-line="10" selection-start-column="8" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1661,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49884528">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1669,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1677,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1685,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4940476">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1693,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68591225">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1701,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6641791">
           <caret line="31" column="42" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1709,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.448276">
           <caret line="4205" column="1" selection-start-line="4205" selection-start-column="1" selection-end-line="4205" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1717,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1725,17 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3857143">
           <caret line="90" column="15" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/MyCustomJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03214286">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1743,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1224018">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1751,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43496802">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1759,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1767,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1775,25 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/students/AdmissionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.722222">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="e#49#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/mainHeader.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3135484">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1801,108 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7761194">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/leftSideMenu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16044776">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.015385">
-          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36621454">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1490283926909" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1910,6 +711,169 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20903225">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73134327">
+          <caret line="285" column="37" selection-start-line="285" selection-start-column="37" selection-end-line="285" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/themes/fa/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/fileinput.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35948905">
+          <caret line="201" column="50" selection-start-line="201" selection-start-column="50" selection-end-line="201" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/img/profiles/2017-03-25-08-25-10-avatar5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4909091">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#218#288#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/MyCustomJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/MyCustomStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/bootstrap-datepicker3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap-datepicker.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43570057">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="false" />
+            <element signature="e#1006#1124#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/leftSideMenu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6618182">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/mainHeader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33205375">
+          <caret line="226" column="45" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.121818185">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/StudentAdmission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.75">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UserTitle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44181818">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_03_26_204710_create_user_title_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73636365">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admission/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.527778">
+          <caret line="61" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admission/new.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1917,28 +881,35 @@
     <entry file="file://$PROJECT_DIR$/public/assets/js/student_admission.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/MyCustomStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admission/new.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admission/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5419708">
-          <caret line="106" column="31" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+        <state vertical-scroll-proportion="-8.25">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2222223">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/students/AdmissionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4270073">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
-            <element signature="e#7744#13002#0#HTML" expanded="false" />
-            <element signature="e#7871#8885#0#HTML" expanded="false" />
+            <element signature="e#514#636#0#PHP" expanded="false" />
+            <element signature="e#641#3647#0#PHP" expanded="true" />
+            <element signature="e#3654#3918#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -224,7 +224,7 @@
                                     <a href="{{asset('/account/profile/')}}/{{Auth::user()->id}}" class="btn btn-default btn-flat">Profile</a>
                                 </div>
                                 <div class="pull-right">
-                                    <a href="{{asset("/logout")}}" class="btn btn-default btn-flat">Sign out</a>
+                                    <a href="{{asset("/auth/logout")}}" class="btn btn-default btn-flat">Sign out</a>
                                 </div>
                             </li>
                         </ul>
