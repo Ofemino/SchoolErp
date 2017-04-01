@@ -38,31 +38,18 @@ class AdmissionController extends Controller
             'Gender' => 'required',
             'Dob' => 'required',
             'Soo' => 'required',
-//            'txtBirthCert' => 'required',
             'BloodGrp' => 'required',
             'ContactTitle' => 'required',
             'ContactFullName' => 'required',
             'ContactPhone' => 'required',
-//            'ContactEmail' => 'required',
             'ContactAddress' => 'required',
-//            'chkCorrespondence' => 'required',
             'childAvatar' => 'required|image|mimes:jpeg,png,jpg',
         ]);
         $input = $request->all();
-        $returnInput = array(
-            'FirstName' => $input['FirstName'],
-            'SurName' => $input['SurName'],
-            'OtherNames' => $input['OtherNames'],
-            'Gender' => $input['Gender'],
-            'Dob' => $input['Dob'],
-            'Soo' => $input['Soo'],
-//            'txtBirthCert' => $input['txtBirthCert'],
-            'BloodGrp' => $input['BloodGrp'],
-        );
 
         if ($validator->fails()) {
             $messages = $validator->messages();
-            return view('admission.create', ['returnInput' => $returnInput])->withErrors($validator);
+            return redirect('admission/create')->withErrors($validator);
         } else {
             $studentAdmission = new StudentAdmission();
             $studentAdmission->first_name = strtoupper($input['FirstName']);
@@ -72,7 +59,6 @@ class AdmissionController extends Controller
             $studentAdmission->dob = date_format(date_create($input['Dob']), 'Y-m-d');
             $studentAdmission->pob = strtoupper($input['Soo']);
             $studentAdmission->blood_group = $input['BloodGrp'];
-
             $studentAdmission->contact_title = $input['ContactTitle'];
             $studentAdmission->primary_contact = strtoupper($input['ContactFullName']);
             $studentAdmission->contact_mobile = strtoupper($input['ContactPhone']);
