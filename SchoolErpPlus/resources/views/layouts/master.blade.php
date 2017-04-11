@@ -101,7 +101,7 @@
         <div class="pull-right hidden-xs">
             <b>Version</b> 1.0.1
         </div>
-        <strong>Copyright &copy; 2015-<?php echo date("Y") ?> <a href="http://PhemwareSolutions.com">Phemware
+        <strong>Copyright &copy;<?php echo date("Y") ?> <a href="http://www.phemwaresolutions.com">Phemware
                 Solutions</a>.</strong> All rights
         reserved.
     </footer>

@@ -2,7 +2,7 @@
 
 namespace App\Http\Middleware;
 
-use App\UserProfile;
+
 use Closure;
 
 class MustBeAdministrator
@@ -16,7 +16,9 @@ class MustBeAdministrator
      */
     public function handle($request, Closure $next)
     {
+        dd($request);
         $getUser = $request->get(['id']);
+//        dd($getUser);
         foreach ($getUser as $u) {
             $prof = DB::select('select role_id from userprofile where user_id = ?', [$u]);
             foreach ($prof as $rid) {
@@ -27,7 +29,6 @@ class MustBeAdministrator
                 }
             }
         }
-
         abort(404, "Un-Authorize attempt!");
     }
 }

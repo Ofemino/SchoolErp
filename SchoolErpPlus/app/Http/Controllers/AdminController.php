@@ -12,9 +12,9 @@ class AdminController extends Controller
     }
 
 
-    public function index()
+    public function index1()
     {
-        return view('admin.home');
+        //return view('admin/');
     }
 
 

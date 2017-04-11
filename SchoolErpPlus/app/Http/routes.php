@@ -15,7 +15,10 @@ Route::auth();
 
 Route::get('auth/logout', 'Auth\AuthController@logout');
 
-Route::get('/admin', 'admin\HomeController@index');
+Route::get('/admin', 'admin\AdminController@index')->middleware('admin');;
+
+
+
 Route::get('/account/profile/{id}', 'account\ProfileController@getProfile');
 
 

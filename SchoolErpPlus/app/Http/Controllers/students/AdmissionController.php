@@ -50,7 +50,9 @@ class AdmissionController extends Controller
         if ($validator->fails()) {
             $messages = $validator->messages();
             return redirect('admission/create')->withErrors($validator);
-        } else {
+        }
+        else
+        {
             $studentAdmission = new StudentAdmission();
             $studentAdmission->first_name = strtoupper($input['FirstName']);
             $studentAdmission->sur_name = strtoupper($input['SurName']);
