@@ -49,10 +49,8 @@ class AdmissionController extends Controller
 
         if ($validator->fails()) {
             $messages = $validator->messages();
-            return redirect('admission/create')->withErrors($validator);
-        }
-        else
-        {
+            return view('admission/create')->withErrors($validator);
+        } else {
             $studentAdmission = new StudentAdmission();
             $studentAdmission->first_name = strtoupper($input['FirstName']);
             $studentAdmission->sur_name = strtoupper($input['SurName']);
@@ -71,11 +69,11 @@ class AdmissionController extends Controller
             //getting timestamp
             $timestamp = str_replace([' ', ':'], '-', Carbon::now()->toDateTimeString());
             $name = $timestamp . '-' . $childAvatar->getClientOriginalName();
-            $studentAdmission->avatar = 'assets/img/profiles/' . $name;
+            $studentAdmission->avatar = $name;
 
             if ($studentAdmission->save()) {
-                $img = Image::make($childAvatar)->resize(300, 200);
-                $img->save('assets/img/profiles/' . $name);
+                $img = Image::make($childAvatar)->resize(200, 200);
+                $img->save('assets/profiles/' . $name);
                 return redirect('admission/index');
             } else {
                 return back();

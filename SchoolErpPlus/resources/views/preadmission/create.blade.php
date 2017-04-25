@@ -2,8 +2,7 @@
 @section('pageTitle', 'New Admission')
 
 @section('contentHeader')
-    New Admission
-
+    Pre-Admission / <span class="subtitle">Create</span>
     <link href="{{asset('assets/css/fileinput.min.css')}}" media="all" rel="stylesheet" type="text/css"/>
 
 @endsection
@@ -121,7 +120,8 @@
                                         <div class="form-group">
                                             State Of Origin: <span class="lblImportant">*</span><br/>
                                             <input required="required" type="text" id="txtSoo" name="Soo"
-                                                   value="{{old('body')}}"  class="form-control" autocomplete="off" placeholder="Place Of Birth">
+                                                   value="{{old('body')}}" class="form-control" autocomplete="off"
+                                                   placeholder="Place Of Birth">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -150,7 +150,8 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="form-group">
-                                            <button class="btn main-btn nextBtn btn-sm pull-right" type="button">Next</button>
+                                            <button class="btn main-btn nextBtn btn-sm pull-right" type="button">Next
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -191,14 +192,16 @@
                                         <div class="form-group">
                                             Contact Phone: <span class="lblImportant">*</span><br/>
                                             <input required="required" type="text" name="ContactPhone"
-                                                   value="{{old('body')}}"  id="txtContactPhone" class="form-control" autocomplete="off" placeholder="Contact Phone Number">
+                                                   value="{{old('body')}}" id="txtContactPhone" class="form-control"
+                                                   autocomplete="off" placeholder="Contact Phone Number">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             Contact Email: <br/>
                                             <input type="email" name="ContactEmail" id="txtContactEmail"
-                                                   value="{{old('body')}}"  class="form-control" autocomplete="off" placeholder="Contact Phone Email">
+                                                   value="{{old('body')}}" class="form-control" autocomplete="off"
+                                                   placeholder="Contact Phone Email">
                                         </div>
                                     </div>
                                 </div>
@@ -207,7 +210,8 @@
                                         <div class="form-group">
                                             Contact Address:<span class="lblImportant">*</span><br/>
                                         <textarea required="required" name="ContactAddress" id="txtContactAddress"
-                                                  value="{{old('body')}}" class="form-control textarea" rows="5"></textarea>
+                                                  value="{{old('body')}}" class="form-control textarea"
+                                                  rows="5"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -222,16 +226,41 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <button class="btn main-btn nextBtn btn-sm pull-right" type="button">Next
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <button class="btn main-btn nextBtn btn-sm pull-right" type="button">Next</button>
                         </div>
                     </div>
                 </div>
                 <div class="row setup-content" id="step-3">
                     <div class="col-xs-12">
                         <div class="col-md-12">
-                            <h3> Admin Use</h3>
-                            <button class="btn main-btn btn-sm pull-right" type="submit">Finish!</button>
+                            <div class="col-md-11 col-md-offset-1">
+                                <h3> Admin Use</h3>
+
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <button class="btn main-btn btn-sm pull-right" type="submit">Finish!
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

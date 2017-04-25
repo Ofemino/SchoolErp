@@ -126,3 +126,44 @@
     line-height: 1.428571429;
     border-radius: 15px;
 }
+
+.menu_page_icon img {
+    height: 100px;
+    width: auto;
+}
+
+.menu_page_icon {
+    float: left;
+    border: solid lightgrey 1pt;
+    border-radius: 5% !important;
+    padding: 15px !important;
+    margin-right: 50px !important;
+    width: 170px!important;
+
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: medium;
+}
+
+.btn-login {
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 4px solid #27ae60;
+}
+
+#profImgDiv img {
+    height: 220px !important;
+    width: 200px !important;
+    border: solid grey 1pt;
+    padding: 5px;
+    margin-right: 50px !important;
+}
+
+.menuBtnDiv {
+    margin-top: 50px !important;
+}

@@ -2,7 +2,7 @@
     <div class="user-panel">
         @if(Auth::check())
             <div class="pull-left image">
-                <img src="{{asset("assets/img/user2-160x160.jpg")}}" class="img-circle" alt="User Image">
+                <img src="{{asset('/assets/profiles')}}/{{Auth::user()->avatar}}" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
 

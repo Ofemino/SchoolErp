@@ -1,10 +1,22 @@
 <component name="ProjectDictionaryState">
   <dictionary name="EntralogIT">
     <words>
+      <w>allpermissions</w>
+      <w>allroles</w>
+      <w>allsession</w>
+      <w>allstaff</w>
+      <w>allusers</w>
+      <w>createroles</w>
       <w>endsection</w>
+      <w>examsandgrades</w>
+      <w>fullname</w>
       <w>phemwaresolutions</w>
+      <w>preadmission</w>
       <w>studentadmission</w>
+      <w>subjectmanagement</w>
+      <w>textarea</w>
       <w>usertitle</w>
+      <w>viewuser</w>
     </words>
   </dictionary>
 </component>
