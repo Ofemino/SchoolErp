@@ -150,7 +150,7 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="form-group">
-                                            <button class="btn main-btn nextBtn btn-sm pull-right" type="button">Next
+                                            <button class="btn btn-login nextBtn btn-sm pull-right" type="button">Next
                                             </button>
                                         </div>
                                     </div>
@@ -229,7 +229,7 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="form-group">
-                                            <button class="btn main-btn nextBtn btn-sm pull-right" type="button">Next
+                                            <button class="btn btn-login main-btn nextBtn btn-sm pull-right" type="button">Next
                                             </button>
                                         </div>
                                     </div>
@@ -255,7 +255,7 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="form-group">
-                                            <button class="btn main-btn btn-sm pull-right" type="submit">Finish!
+                                            <button class="btn btn-login main-btn btn-sm pull-right" type="submit">Finish!
                                             </button>
                                         </div>
                                     </div>

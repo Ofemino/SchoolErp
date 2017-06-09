@@ -150,7 +150,7 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="form-group">
-                                            <button class="btn main-btn nextBtn btn-sm pull-right" type="button">Next</button>
+                                            <button class="btn main-btn nextBtn btn-sm pull-right btn-login" type="button">Next</button>
                                         </div>
                                     </div>
                                 </div>
@@ -196,6 +196,15 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                            Other Phone Contact: <span class="lblImportant">*</span><br/>
+                                            <input required="required" type="text" name="ContactPhone"
+                                                   value="{{old('body')}}"  id="txtContactPhone" class="form-control" autocomplete="off" placeholder="Contact Phone Number">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group">
                                             Contact Email: <br/>
                                             <input type="email" name="ContactEmail" id="txtContactEmail"
                                                    value="{{old('body')}}"  class="form-control" autocomplete="off" placeholder="Contact Phone Email">
@@ -223,7 +232,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="btn main-btn nextBtn btn-sm pull-right" type="button">Next</button>
+                            <button class="btn main-btn nextBtn btn-sm pull-right btn-login" type="button">Next</button>
                         </div>
                     </div>
                 </div>
@@ -231,7 +240,7 @@
                     <div class="col-xs-12">
                         <div class="col-md-12">
                             <h3> Admin Use</h3>
-                            <button class="btn main-btn btn-sm pull-right" type="submit">Finish!</button>
+                            <button class="btn main-btn btn-sm pull-right btn-login" type="submit">Finish!</button>
                         </div>
                     </div>
                 </div>

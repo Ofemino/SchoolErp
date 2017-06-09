@@ -36,7 +36,13 @@ class AdminController extends Controller
 
     public function allSession()
     {
-        return view('admin/allsession');
+        $allSession = DB::table('schoolsession')->orderBy('id', 'desc')->get();
+        return view('admin/allsession')->with(['allSession' => $allSession]);
+    }
+
+    public function newSession()
+    {
+        return view('admin/newsession');
     }
 
     public function examsAndGrades()

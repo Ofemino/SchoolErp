@@ -36,13 +36,13 @@
                     <div class="stepwizard-step">
                         <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
 
-                        <p>Step 2: Other Details</p>
+                        <p>Step 2: Admin Details</p>
                     </div>
-                    <div class="stepwizard-step">
-                        <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                    {{--<div class="stepwizard-step">--}}
+                    {{--<a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>--}}
 
-                        <p>Step 3: Admin Details</p>
-                    </div>
+                    {{--<p>Step 3: Admin Details</p>--}}
+                    {{--</div>--}}
                 </div>
             </div>
 
@@ -72,7 +72,7 @@
                                                 Fullname: <span class="lblImportant">*</span><br/>
                                                 <input required="required" type="text" id="FirstName" name="FirstName"
                                                        value="{{$prof->name}}" class="form-control" autocomplete="off"
-                                                       placeholder="First Name">
+                                                       placeholder="First Name" readonly="readonly">
                                             </div>
                                         </div>
                                     </div>
@@ -89,9 +89,9 @@
                                     </div>
                                     <div class="row" style="margin-top: 25px!important;">
                                         <div class="col-md-12">
-                                           <p>
-                                               Change Your Password
-                                           </p>
+                                            <p>
+                                                Change Your Password
+                                            </p>
                                             <hr>
                                         </div>
                                     </div>
@@ -131,7 +131,8 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <button class="btn main-btn nextBtn btn-login btn-sm pull-right" type="button">
+                                                <button class="btn main-btn nextBtn btn-login btn-sm pull-right"
+                                                        type="button">
                                                     Next
                                                 </button>
                                             </div>
@@ -154,88 +155,7 @@
                         <div class="col-xs-12">
                             <div class="col-md-12">
                                 <div class="col-md-11 col-md-offset-1">
-                                    <h3> Other Details</h3>
-
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <div class="form-group">
-                                                Title: <span class="lblImportant">*</span><br/>
-                                                <select required="required" name="ContactTitle" id="ddlContactTitle"
-                                                        class="form-control">
-                                                    <option value="0">Select Title</option>
-                                                    <option value="1">Mr.</option>
-                                                    <option value="2">Mrs.</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                Full Name: <span class="lblImportant">*</span><br/>
-                                                <input required="required" type="text" id="txtContactFullName"
-                                                       name="ContactFullName"
-                                                       class="form-control" autocomplete="off"
-                                                       placeholder="Contact Fullname">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                Contact Phone: <span class="lblImportant">*</span><br/>
-                                                <input required="required" type="text" name="ContactPhone"
-                                                       value="{{old('body')}}" id="txtContactPhone" class="form-control"
-                                                       autocomplete="off" placeholder="Contact Phone Number">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                Contact Email: <br/>
-                                                <input type="email" name="ContactEmail" id="txtContactEmail"
-                                                       value="{{old('body')}}" class="form-control" autocomplete="off"
-                                                       placeholder="Contact Phone Email">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <div class="form-group">
-                                                Contact Address:<span class="lblImportant">*</span><br/>
-                                        <textarea required="required" name="ContactAddress" id="txtContactAddress"
-                                                  value="{{old('body')}}" class="form-control textarea"
-                                                  rows="5"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <div class="form-group">
-                                                <div class="checkbox">Check/UnCheck: &nbsp;<br/>
-                                                    <label><input name="IsCorrespondence" id="chkCorrespondence"
-                                                                  value="{{old('body')}}" type="checkbox">Receive
-                                                        Correspondence</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <div class="form-group">
-                                                <button class="btn main-btn nextBtn btn-login btn-sm pull-right" type="button">
-                                                    Next
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row setup-content" id="step-3">
-                        <div class="col-xs-12">
-                            <div class="col-md-12">
-                                <div class="col-md-11 col-md-offset-1">
                                     <h3> Admin Details</h3>
-
                                     <div class="row">
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -243,11 +163,11 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="row">
                                         <div class="col-md-8">
                                             <div class="form-group">
-                                                <button class="btn main-btn btn-sm btn-login pull-right" type="submit">Save
+                                                <button class="btn main-btn btn-sm btn-login pull-right" type="submit">
+                                                    Save
                                                     Changes!
                                                 </button>
                                             </div>

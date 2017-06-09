@@ -22,7 +22,10 @@ Route::get('/allusers', 'admin\AdminController@getAllUsers')->middleware('admin'
 Route::get('/allusers/view/{id}', 'admin\AdminController@viewUsers')->middleware('admin');
 Route::get('/allroles', 'admin\AdminController@allRoles')->middleware('admin');
 Route::get('/allpermissions', 'admin\AdminController@allPermission')->middleware('admin');
+
 Route::get('/allsession', 'admin\AdminController@allSession')->middleware('admin');
+Route::get('/allsession/new', 'admin\AdminController@newSession')->middleware('admin');
+
 Route::get('/examsandgrades', 'admin\AdminController@examsAndGrades')->middleware('admin');
 
 

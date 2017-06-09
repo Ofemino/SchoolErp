@@ -54,7 +54,6 @@
             border-bottom: 4px solid #27ae60;
         }
     </style>
-
     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
         {{ csrf_field() }}
 
@@ -105,5 +104,4 @@
             </div>
         </div>
     </form>
-
 @endsection
